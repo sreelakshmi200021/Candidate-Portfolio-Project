@@ -1,0 +1,14 @@
+body{
+    height: 85vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.about{
+    color: aliceblue;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}

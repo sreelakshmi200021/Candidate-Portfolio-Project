@@ -1,0 +1,55 @@
+* {box-sizing: border-box;}
+
+body {
+  margin: 10;
+  font-family: Arial, Helvetica, sans-serif;
+  background: black;
+}
+.header {
+    overflow: hidden;
+    padding: 5px 16px;
+    background: white;
+    color: black;
+    height: 100px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: grey;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav1 a {
+  float: right;
+  display: block;
+  color: rgb(255, 250, 250);
+  text-align: center;
+  padding: 14px 19px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: -40px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+body{
+    background-color: black;
+}
+.header {
+    overflow: hidden;
+    padding: 5px 16px;
+    background: white;
+    color: black;
+    height: 100px;
+}
