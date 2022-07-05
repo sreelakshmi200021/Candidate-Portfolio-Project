@@ -3,7 +3,6 @@
 body {
   margin: 10;
   font-family: Arial, Helvetica, sans-serif;
-  background: black;
 }
 .header {
     overflow: hidden;
@@ -43,9 +42,6 @@ body {
   color: black;
 }
 
-body{
-    background-color: black;
-}
 .header {
     overflow: hidden;
     padding: 5px 16px;

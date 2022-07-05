@@ -6,7 +6,7 @@
     font-size: 60px;
     border: 10px solid #f1f1f1;
     position: fixed;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -14,7 +14,7 @@
     padding: 20px;
     text-align: center;
   }
-body{
+  body{
     height: 70vh;
     background-color: rgb(0, 0, 0);
 }

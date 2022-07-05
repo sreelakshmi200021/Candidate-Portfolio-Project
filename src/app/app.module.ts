@@ -10,6 +10,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { LogincoordinatorComponent } from './logincoordinator/logincoordinator.component';
 import { TrainerComponent } from './trainer/trainer.component';
 import { CandidateComponent } from './candidate/candidate.component';
+import { CoordinatorComponent } from './coordinator/coordinator.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CandidateComponent } from './candidate/candidate.component';
     NavbarComponent,
     LogincoordinatorComponent,
     TrainerComponent,
-    CandidateComponent
+    CandidateComponent,
+    CoordinatorComponent
   ],
   imports: [
     BrowserModule,
