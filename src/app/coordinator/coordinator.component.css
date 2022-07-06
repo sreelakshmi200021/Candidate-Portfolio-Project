@@ -61,3 +61,31 @@
   float:right;
   margin-top: 20px;
 }
+table, th, td {
+  padding : 20px 10px;
+  margin: 30px 0px;
+  border-collapse: collapse;
+  border-color:grey;
+}
+
+#myTable {
+
+  width: 100%;
+  border: 2px solid rgb(170, 170, 170);
+  font-size: 18px;
+  color:rgb(255, 255, 255);
+  
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 10px;
+}
+
+#myTable tr {
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+/* #myTable tr.header, #myTable tr:hover {
+  background-color: rgb(138, 138, 138);
+} */
