@@ -10,11 +10,12 @@
     color: black;
     height: 100px;
 }
+/*
 .topnav {
   overflow: hidden;
   background-color: grey;
 }
-
+*/
 .topnav1 a {
     float: right;
     display: block;
@@ -25,6 +26,7 @@
     font-size: 20px;
     margin-top: -50px;
   }
+  /*
 .topnav a {
   float: left;
   display: block;
@@ -38,7 +40,7 @@
 .topnav a:hover {
   background-color: #ddd;
   color: black;
-}
+}*/
 
 .header {
     overflow: hidden;

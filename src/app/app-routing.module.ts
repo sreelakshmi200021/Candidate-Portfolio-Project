@@ -9,7 +9,7 @@ import { LogincoordinatorComponent } from './logincoordinator/logincoordinator.c
 import { TrainerComponent } from './trainer/trainer.component';
 
 const routes: Routes = [
-  {path:"home", component:HomeComponent},
+  {path:"", component:HomeComponent},
   {path:"about", component:AboutComponent},
   {path:"login", component:LoginComponent},
   {path:"logincoordinator", component:LogincoordinatorComponent},

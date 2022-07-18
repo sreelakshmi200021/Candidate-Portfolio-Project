@@ -1,4 +1,4 @@
-function myFunction() {
+/*function myFunction() {
     var input, filter, table, tr, td, i, txtValue;
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
@@ -25,4 +25,4 @@ function myFunction() {
         }
       }    
     }
-  }
+  }*/
