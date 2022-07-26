@@ -1,93 +1,44 @@
-
- body{
-    height: 120vh;
-    background-color: rgb(0, 0, 0);
- }
- .header {
-    overflow: hidden;
-    padding: 5px 16px;
-    background: white;
-    color: black;
-    height: 100px;
+body{
+  height: 120vh;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
-/*)
-.topnav {
-  overflow: hidden;
-  background-color: grey;
-}*/
 
 .topnav1 a {
-    float: right;
-    display: block;
-    color: rgb(255, 250, 250);
-    text-align: center;
-    padding: 14px 19px;
-    text-decoration: none;
-    font-size: 20px;
-    margin-top: -50px;
-  }
-  /*
-.topnav a {
-  float: left;
+  float: right;
   display: block;
-  color: black;
+  color: rgb(255, 250, 250);
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 19px;
   text-decoration: none;
   font-size: 20px;
+  margin-top: -50px;
+}
+.searchTerm{
+  font-size: 20px;
+  margin-top: 30px;
+  padding: 5px;
+  margin-left: 20px;
+  border: 3px solid #09ac04;
+  height: 20px;
+  width: 300px;
+  border-radius: 5px;
+  outline: none;
+  color: #000000;
 }
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}*/
-
-.header {
-    overflow: hidden;
-    padding: 5px 16px;
-    background: white;
-    color: black;
-    height: 100px;
-}
-
-#myInput {
-  background-image: url('../../assets/search.png');
-  background-size: 30px;
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-  width: 20%;
-  font-size: 16px;
-  padding: 12px 20px 12px 40px;
-  border: 1px solid #ddd;
-  margin-bottom: 12px;
-  float:right;
-  margin-top: 20px;
-}
-table, th, td {
-  padding : 20px 10px;
-  margin: 30px 0px;
+.table{
+  margin-top: 40px;
+  margin-left: 30px;
+  font-family: arial, sans-serif;
   border-collapse: collapse;
-  border-color:grey;
+
+} 
+
+thead tr th{
+  padding: 20px;
 }
 
-#myTable {
-
-  width: 100%;
-  border: 2px solid rgb(170, 170, 170);
-  font-size: 18px;
-  color:rgb(255, 255, 255);
-  
+tbody tr td{
+  padding: 20px;
 }
-
-#myTable th, #myTable td {
-  text-align: left;
-  padding: 10px;
-}
-
-#myTable tr {
-  border-bottom: 2px solid rgb(255, 255, 255);
-}
-
-/* #myTable tr.header, #myTable tr:hover {
-  background-color: rgb(138, 138, 138);
-} */

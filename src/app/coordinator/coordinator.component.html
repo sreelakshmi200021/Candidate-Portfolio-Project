@@ -1,57 +1,44 @@
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
-    <!--<div class="header">
-        <img src="../../assets/wvf1.jpg" alt="logo" style="width: 450px;">
-    </div>   
-    <div class="topnav">
-        <a routerLink="home">Home</a>
-        <a routerLink="about">About</a>
-    </div> -->
-    <div class="topnav1">
-            <a routerLink="/logincoordinator"><u>LogOut</u></a>
-            <a>Hi, Coordinator</a>
-            <router-outlet></router-outlet>
-    </div>
-    
-<input type="text" id="myInput" onclick="myFunction()" placeholder="Search for names.." title="Type in a name">
+  <div class="topnav1">
+    <a routerLink="/login"><u>LogOut</u></a>
+    <a>Hi, Coordinator</a>
+</div>
+<router-outlet></router-outlet>
+  <div class="m-3">
+    <div class="wrap">
+      <div class="search">
+        <input type="text" [(ngModel)]="term" class="searchTerm" placeholder="Search ...">
+        <!-- [(ngModel)]="term" -->
+      </div>
+      <table class="table">
+        <thead>
+          <tr class="th">
+            <th>ID</th>
+            <th>NAME</th>
+            <th>CONTACT</th>
+            <th>BATCH</th>
+            <th>DEGREE</th>
+            <th>DISABILITY</th>
+            <th>YEAR OF PASSING</th>
+            <th>WORK EXPERIENCE</th>
+            <th>SWOT</th>
+          </tr>
+        </thead>
 
-<table style="width:100%"  id="myTable">
-    <tr  class="header">
-      <th>No</th>
-      <th>Name</th>
-      <th>Contact</th>
-      <th>Batch</th>
-      <th>Degree</th>
-      <th>Disability</th>
-      <th>Year of Passing</th>
-      <th>Work experience</th>
-      <th>Sign name</th>
-      <th>SWOT</th>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>Hari</td>
-      <td>8797675687</td>
-      <td>2018-2022</td>
-      <td>Bsc</td>
-      <td>Deaf</td>
-      <td>2022</td>
-      <td>NA</td>
-      <td><img src="../../assets/nyle.gif" alt="sign name" style="width:150px;height:100px;"></td>
-      <td>Good</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Devika</td>
-      <td>8797675687</td>
-      <td>2018-2022</td>
-      <td>Bcom</td>
-      <td>Deaf</td>
-      <td>2022</td>
-      <td>NA</td>
-      <td><img src="../../assets/nyle.gif" alt="sign name" style="width:150px;height:100px;"></td>
-      <td>Weakness</td>
-    </tr>
-    </table>
-    
+        <tbody>
+          <tr *ngFor="let stud of students | filter: term" class="td">
+            <td>{{stud.id}}</td>
+            <td>{{stud.name}}</td>
+            <td>{{stud.contact}}</td>
+            <td>{{stud.batch}}</td>
+            <td>{{stud.degree}}</td>
+            <td>{{stud.disability}}</td>
+            <td>{{stud.year}}</td>
+            <td>{{stud.work}}</td>
+            <td>{{stud.swot}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </body>

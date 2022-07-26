@@ -11,6 +11,10 @@ import { LogincoordinatorComponent } from './logincoordinator/logincoordinator.c
 import { TrainerComponent } from './trainer/trainer.component';
 import { CandidateComponent } from './candidate/candidate.component';
 import { CoordinatorComponent } from './coordinator/coordinator.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +30,10 @@ import { CoordinatorComponent } from './coordinator/coordinator.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
+    Ng2SearchPipeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

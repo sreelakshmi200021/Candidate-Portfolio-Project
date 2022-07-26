@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,10 +7,29 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./coordinator.component.css']
 })
 export class CoordinatorComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
+    searchTerm = '';
+    students: stud[] = [];
+    term = '';
+  
+    constructor(private http: HttpClient) { }
+  
+    ngOnInit(): void {
+      this.http.get<stud[]>('./assets/students.json')
+        .subscribe((data: stud[]) => {
+          this.students = data;
+        });
+    }
+  
   }
-
-}
+  interface stud {
+    id:number;
+    name: string;
+    contact: number;
+    batch: number;
+    degree:string;
+    disability:string;
+    year:number;
+    work:string;
+    sign:string;
+    swot:string;
+  }

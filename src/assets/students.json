@@ -1,0 +1,50 @@
+[
+    {
+      "id":1,
+      "name": "Hari",
+      "contact": 9017075200,
+      "batch": 2019,
+      "degree":"bsc",
+      "disability":"deaf",
+      "year":2022,
+      "work":"Msr",
+      "sign":"",
+      "swot":"weak"
+    },
+    {
+        "id":2,
+        "name": "Devika",
+        "contact": 9017075200,
+        "batch": 2019,
+        "degree":"bsc",
+        "disability":"deaf",
+        "year":2022,
+        "work":"Na",
+        "sign":"",
+        "swot":"weak"
+    },
+    {
+        "id":3,
+        "name": "Sreerag",
+        "contact": 9017075200,
+        "batch": 2015,
+        "degree":"bcom",
+        "disability":"deaf",
+        "year":2082,
+        "work":"Na",
+        "sign":"",
+        "swot":"Good"
+    },
+    {
+        "id":4,
+        "name": "jessica",
+        "contact": 5867586500,
+        "batch": 2010,
+        "degree":"BFA",
+        "disability":"deaf",
+        "year":2023,
+        "work":"NA",
+        "sign":"",
+        "swot":"Strong"
+    }
+]
